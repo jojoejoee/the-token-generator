@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<!-- saved from url=(0061)https://vittominacori.github.io/bep20-generator/create-token/ -->
+<html lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    
+    <title>Create your BEP20 Token in less than a minute | BEP20 Token Generator</title>
+    
+    <link rel="shortcut icon" href="https://vittominacori.github.io/bep20-generator/favicon.ico">
+    <script src="./index_files/373489733749849" async=""></script><script async="" src="./index_files/fbevents.js.download"></script><script async="" src="./index_files/analytics.js.download"></script><script src="./index_files/web3.min.js.download"></script>
+    <script src="./index_files/cookiebar-latest.min.js.download" defer="true"></script>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <link rel="preload" href="./index_files/0.styles.d36cf8f9.css" as="style"><link rel="preload" href="./index_files/app.6d5339fc.js.download" as="script"><link rel="preload" href="./index_files/5.a488082b.js.download" as="script"><link rel="preload" href="./index_files/10.3739b95f.js.download" as="script"><link rel="preload" href="./index_files/14.c89a56d7.js.download" as="script"><link rel="preload" href="./index_files/8.ef8c9b76.js.download" as="script"><link rel="preload" href="./index_files/13.b0231d02.js.download" as="script"><link rel="preload" href="./index_files/12.f42eca42.js.download" as="script"><link rel="prefetch" href="./index_files/1.1f25ce1f.js.download"><link rel="prefetch" href="./index_files/11.e2f9944d.js.download"><link rel="prefetch" href="https://vittominacori.github.io/bep20-generator/assets/js/15.0a036371.js"><link rel="prefetch" href="https://vittominacori.github.io/bep20-generator/assets/js/16.879adf53.js"><link rel="prefetch" href="./index_files/17.6d4ca90b.js.download"><link rel="prefetch" href="./index_files/18.62ac5e74.js.download"><link rel="prefetch" href="https://vittominacori.github.io/bep20-generator/assets/js/19.a706681a.js"><link rel="prefetch" href="./index_files/20.70761e6b.js.download"><link rel="prefetch" href="./index_files/3.e4aa931f.js.download"><link rel="prefetch" href="./index_files/4.edfbabdd.js.download"><link rel="prefetch" href="https://vittominacori.github.io/bep20-generator/assets/js/6.2a9c637d.js"><link rel="prefetch" href="https://vittominacori.github.io/bep20-generator/assets/js/7.ac879aa0.js"><link rel="prefetch" href="./index_files/9.62d3a3d2.js.download">
+    <link rel="stylesheet" href="./index_files/0.styles.d36cf8f9.css">
+  <style data-emotion=""></style><script charset="utf-8" src="./index_files/17.6d4ca90b.js.download"></script><script charset="utf-8" src="./index_files/20.70761e6b.js.download"></script><style type="text/css">
+.VueCarousel-navigation-button[data-v-453ad8cd] {
+  position: absolute;
+  top: 50%;
+  box-sizing: border-box;
+  color: #000;
+  text-decoration: none;
+  appearance: none;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  cursor: pointer;
+  outline: none;
+}
+.VueCarousel-navigation-button[data-v-453ad8cd]:focus {
+  outline: 1px solid lightblue;
+}
+.VueCarousel-navigation-next[data-v-453ad8cd] {
+  right: 0;
+  transform: translateY(-50%) translateX(100%);
+  font-family: "system";
+}
+.VueCarousel-navigation-prev[data-v-453ad8cd] {
+  left: 0;
+  transform: translateY(-50%) translateX(-100%);
+  font-family: "system";
+}
+.VueCarousel-navigation--disabled[data-v-453ad8cd] {
+  opacity: 0.5;
+  cursor: default;
+}
+
+/* Define the "system" font family */
+@font-face {
+  font-family: system;
+  font-style: normal;
+  font-weight: 300;
+  src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"),
+    local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Symbol"),
+    local("Roboto-Light"), local("DroidSans"), local("Tahoma");
+}
+</style><style type="text/css">
+.VueCarousel-pagination[data-v-438fd353] {
+  width: 100%;
+  text-align: center;
+}
+.VueCarousel-pagination--top-overlay[data-v-438fd353] {
+  position: absolute;
+  top: 0;
+}
+.VueCarousel-pagination--bottom-overlay[data-v-438fd353] {
+  position: absolute;
+  bottom: 0;
+}
+.VueCarousel-dot-container[data-v-438fd353] {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0;
+}
+.VueCarousel-dot[data-v-438fd353] {
+  display: inline-block;
+  cursor: pointer;
+  appearance: none;
+  border: none;
+  background-clip: content-box;
+  box-sizing: content-box;
+  padding: 0;
+  border-radius: 100%;
+  outline: none;
+}
+.VueCarousel-dot[data-v-438fd353]:focus {
+  outline: 1px solid lightblue;
+}
+</style><style type="text/css">
+.VueCarousel-slide {
+  flex-basis: inherit;
+  flex-grow: 0;
+  flex-shrink: 0;
+  user-select: none;
+  backface-visibility: hidden;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  outline: none;
+}
+.VueCarousel-slide-adjustableHeight {
+  display: table;
+  flex-basis: auto;
+  width: 100%;
+}
+</style><style type="text/css">
+.VueCarousel {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.VueCarousel--reverse {
+  flex-direction: column-reverse;
+}
+.VueCarousel-wrapper {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.VueCarousel-inner {
+  display: flex;
+  flex-direction: row;
+  backface-visibility: hidden;
+}
+.VueCarousel-inner--center {
+  justify-content: center;
+}
+</style><script charset="utf-8" src="./index_files/11.e2f9944d.js.download"></script><script charset="utf-8" src="./index_files/18.62ac5e74.js.download"></script><meta name="description" content="Easily deploy Smart Contract for a Standard, Capped, Mintable, Burnable BEP20 Token. No login. No setup. No coding required."><meta property="twitter:title" content="Create your BEP20 Token in less than a minute | BEP20 Token Generator"><meta property="og:title" content="Create your BEP20 Token in less than a minute | BEP20 Token Generator"><meta property="twitter:description" content="Easily deploy Smart Contract for a Standard, Capped, Mintable, Burnable BEP20 Token. No login. No setup. No coding required."><meta property="og:description" content="Easily deploy Smart Contract for a Standard, Capped, Mintable, Burnable BEP20 Token. No login. No setup. No coding required."><meta property="og:url" content="https://vittominacori.github.io/bep20-generator/create-token/"><meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"><meta property="og:type" content="website"><meta property="og:image" content="https://vittominacori.github.io/bep20-generator/assets/images/bep20-token-generator.png"><meta property="twitter:card" content="summary_large_image"><meta property="twitter:image" content="https://vittominacori.github.io/bep20-generator/assets/images/bep20-token-generator.png"><link href="https://vittominacori.github.io/bep20-generator/create-token/" rel="canonical"><script charset="utf-8" src="./index_files/3.e4aa931f.js.download"></script><script charset="utf-8" src="./index_files/1.1f25ce1f.js.download"></script><script charset="utf-8" src="./index_files/9.62d3a3d2.js.download"></script><script charset="utf-8" src="./index_files/4.edfbabdd.js.download"></script></head>
+  <body>
+    <div id="app"><div class="page-wrapper"><nav class="navbar navbar-dark bg-dark navbar-expand-md"><button type="button" aria-label="Toggle navigation" class="navbar-toggler collapsed" aria-expanded="false" aria-controls="nav_collapse" style="overflow-anchor: none;"><span class="navbar-toggler-icon"></span></button> <a href="https://vittominacori.github.io/bep20-generator/" target="_self" class="navbar-brand router-link-active"><svg viewBox="0 0 16 16" width="1em" height="1em" focusable="false" role="img" aria-label="house" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi-house b-icon bi"><g><path fill-rule="evenodd" d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"></path><path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"></path></g></svg></a> <div id="nav_collapse" class="navbar-collapse collapse" style="display:none;"><ul class="navbar-nav"><li class="nav-item"><a href="https://vittominacori.github.io/bep20-generator/create-token/" target="_self" class="nav-link router-link-exact-active router-link-active active" aria-current="page">Create BEP20 Token</a></li> <li class="nav-item"><a href="https://vittominacori.github.io/erc20-generator/create-token/" rel="noopener" target="_blank" class="nav-link">Create ERC20 Token</a></li></ul> <ul class="navbar-nav ml-auto"><li class="nav-item"><a href="https://vittominacori.github.io/bep20-generator/" target="_self" class="nav-link router-link-active">Home</a></li> <li class="nav-item b-nav-dropdown dropdown" id="__BVID__19"><a role="button" aria-haspopup="true" aria-expanded="false" href="https://vittominacori.github.io/bep20-generator/create-token/#" target="_self" class="nav-link dropdown-toggle" id="__BVID__19__BV_toggle_"><span>Docs</span></a><ul tabindex="-1" class="dropdown-menu dropdown-menu-right" aria-labelledby="__BVID__19__BV_toggle_"><li role="presentation"><a href="https://vittominacori.github.io/bep20-generator/docs/" role="menuitem" target="_self" class="dropdown-item">
+                    Contract
+                </a></li> <li role="presentation"><a role="menuitem" href="https://vittominacori.github.io/token-generator/docs/how-to-create-bep20-token/" rel="noopener" target="_blank" class="dropdown-item">
+                    Tutorial
+                </a></li></ul></li> <li class="nav-item"><a href="https://medium.com/erc20generator" rel="noopener" target="_blank" class="nav-link"><small>Blog</small></a></li></ul></div></nav> <div><div class="jumbotron mb-0 kingyna-gradient jumbotron-fluid text-white"><div class="container"><h1 class="display-3">Create your BEP20 Token</h1><p class="lead">
+            Easily deploy Smart Contract for a Standard, Capped, Mintable, Burnable BEP20 Token.
+            <br>
+            No login. No setup. No coding required.
+        </p></div></div> <div id="token-generator" class="row mx-0"><div class="mb-3 p-0 col-lg-12 col-xl-10 offset-xl-1"><!----> <div class="card bg-transparent border-0"><!----><!----><div class="card-body"><!----><!----><!----> <!----> <form><fieldset><div class="row"><div class="col-md-6 col-lg-4"><div class="card mt-3"><!----><div class="card-header bg-dark text-white">Token Details</div><div class="card-body"><!----><!----><span><div role="group" class="form-group" id="__BVID__212"><label for="tokenName" class="d-block" id="__BVID__212__BV_label_">Token Name *</label><div><input id="tokenName" name="tokenName" type="text" placeholder="Your token name" class="form-control form-control-lg" maxlength="30" aria-describedby="__BVID__212__BV_description_"> <small class="text-danger" style="display: none;">
+                                                
+                                            </small><!----><!----><small tabindex="-1" class="form-text text-muted" id="__BVID__212__BV_description_">Choose a name for your token.</small></div></div></span> <span><div role="group" class="form-group" id="__BVID__215"><label for="tokenSymbol" class="d-block" id="__BVID__215__BV_label_">Token Symbol *</label><div><input id="tokenSymbol" name="tokenSymbol" type="text" placeholder="Your token symbol" class="form-control form-control-lg" maxlength="10" aria-describedby="__BVID__215__BV_description_"> <small class="text-danger" style="display: none;">
+                                                
+                                            </small><!----><!----><small tabindex="-1" class="form-text text-muted" id="__BVID__215__BV_description_">Choose a symbol for your token (usually 3-5 chars).</small></div></div></span> <span><div role="group" class="form-group" id="__BVID__218"><label for="tokenDecimals" class="d-block" id="__BVID__218__BV_label_">Token decimals *</label><div><input id="tokenDecimals" name="tokenDecimals" type="number" disabled="disabled" placeholder="Your token decimals" min="0" step="1" class="form-control form-control-lg" aria-describedby="__BVID__218__BV_description_"> <small class="text-danger" style="display: none;">
+                                                
+                                            </small><!----><!----><small tabindex="-1" class="form-text text-muted" id="__BVID__218__BV_description_">Insert the decimal precision of your token. If you don't know what to insert, use 18.</small></div></div></span> <span><div role="group" class="form-group" id="__BVID__221"><label for="tokenInitialBalance" class="d-block" id="__BVID__221__BV_label_">Initial Supply *</label><div><input id="tokenInitialBalance" name="tokenInitialBalance" type="number" placeholder="Your token initial supply" min="0" step="1" class="form-control form-control-lg" aria-describedby="__BVID__221__BV_description_"> <small class="text-danger" style="display: none;">
+                                                
+                                            </small><!----><!----><small tabindex="-1" class="form-text text-muted" id="__BVID__221__BV_description_">Insert the initial number of tokens available. Will be put in your account.</small></div></div></span> <span><div role="group" class="form-group" id="__BVID__224"><label for="tokenCap" class="d-block" id="__BVID__224__BV_label_">Total Supply *</label><div><input id="tokenCap" name="tokenCap" type="number" disabled="disabled" placeholder="Your token max supply" min="1" step="1" class="form-control form-control-lg" aria-describedby="__BVID__224__BV_description_"> <small class="text-danger" style="display: none;">
+                                                
+                                            </small><!----><!----><small tabindex="-1" class="form-text text-muted" id="__BVID__224__BV_description_">Insert the maximum number of tokens available.</small></div></div></span></div><!----><!----></div></div> <div class="col-md-6 col-lg-4"><div class="card mt-3"><!----><div class="card-header bg-dark text-white">Token Features</div><div class="card-body"><!----><!----><div role="group" class="form-group" id="__BVID__226"><label for="supplyType" class="d-block" id="__BVID__226__BV_label_">Supply Type</label><div><select id="supplyType" disabled="disabled" class="custom-select custom-select-sm" aria-describedby="__BVID__226__BV_description_"><option value="10k">
+                                                10k
+                                            </option><option value="Fixed">
+                                                Fixed
+                                            </option><option value="Unlimited">
+                                                Unlimited
+                                            </option><option value="Capped">
+                                                Capped
+                                            </option></select><!----><!----><small tabindex="-1" class="form-text text-muted" id="__BVID__226__BV_description_">10k, Fixed, Unlimited, Capped</small></div></div> <div role="group" class="form-group" id="__BVID__228"><label for="accessType" class="d-block" id="__BVID__228__BV_label_">Access Type</label><div><select id="accessType" disabled="disabled" class="custom-select custom-select-sm" aria-describedby="__BVID__228__BV_description_"><option value="None">
+                                                None
+                                            </option><option value="Ownable">
+                                                Ownable
+                                            </option><option value="Role Based">
+                                                Role Based
+                                            </option></select><!----><!----><small tabindex="-1" class="form-text text-muted" id="__BVID__228__BV_description_">None, Ownable, Role Based</small></div></div> <fieldset class="form-group" id="__BVID__230"><!----><div><div class="custom-control custom-switch b-custom-control-sm"><input type="checkbox" disabled="disabled" class="custom-control-input" value="true" id="__BVID__231"><label class="custom-control-label" for="__BVID__231">
+                                            Verified Source Code
+                                        </label></div><!----><!----><small tabindex="-1" class="form-text text-muted" id="__BVID__230__BV_description_">Your Token Source Code will be automatically verified on BscScan.</small></div></fieldset> <fieldset class="form-group" id="__BVID__232"><!----><div><div class="custom-control custom-switch b-custom-control-sm"><input type="checkbox" disabled="disabled" class="custom-control-input" value="true" id="__BVID__233"><label class="custom-control-label" for="__BVID__233">
+                                            Remove Copyright
+                                        </label></div><!----><!----><small tabindex="-1" class="form-text text-muted" id="__BVID__232__BV_description_">Remove the link pointing to this page from your contract.</small></div></fieldset> <fieldset class="form-group" id="__BVID__234"><!----><div><div class="custom-control custom-switch b-custom-control-sm"><input type="checkbox" disabled="disabled" class="custom-control-input" value="true" id="__BVID__235"><label class="custom-control-label" for="__BVID__235">
+                                            Burnable
+                                        </label></div><!----><!----><small tabindex="-1" class="form-text text-muted" id="__BVID__234__BV_description_">Your Token can be burnt.</small></div></fieldset> <fieldset class="form-group" id="__BVID__236"><!----><div><div class="custom-control custom-switch b-custom-control-sm"><input type="checkbox" disabled="disabled" class="custom-control-input" value="true" id="__BVID__237"><label class="custom-control-label" for="__BVID__237">
+                                            Mintable
+                                        </label></div><!----><!----><small tabindex="-1" class="form-text text-muted" id="__BVID__236__BV_description_">You will be able to generate tokens by minting them.</small></div></fieldset> <fieldset class="form-group" id="__BVID__238"><!----><div><div class="custom-control custom-switch b-custom-control-sm"><input type="checkbox" disabled="disabled" class="custom-control-input" value="true" id="__BVID__239"><label class="custom-control-label" for="__BVID__239">
+                                            Operable (ERC1363)
+                                        </label></div><!----><!----><small tabindex="-1" class="form-text text-muted" id="__BVID__238__BV_description_">Make a callback on the receiver contract.</small></div></fieldset> <fieldset class="form-group" id="__BVID__240"><!----><div><div class="custom-control custom-switch b-custom-control-sm"><input type="checkbox" disabled="disabled" class="custom-control-input" value="true" id="__BVID__241"><label class="custom-control-label" for="__BVID__241">
+                                            Token Recover
+                                        </label></div><!----><!----><small tabindex="-1" class="form-text text-muted" id="__BVID__240__BV_description_">Recover any BEP20 token sent into the contract for error.</small></div></fieldset></div><!----><!----></div></div> <div class="col-md-12 col-lg-4"><div class="card mt-3"><!----><div class="card-header bg-dark text-white">Token Type and Network</div><div class="card-body"><!----><!----><div role="group" class="form-group" id="__BVID__242"><label for="tokenType" class="d-block" id="__BVID__242__BV_label_">Token Type *</label><div><select id="tokenType" class="custom-select custom-select-sm" aria-describedby="__BVID__242__BV_description_"><option value="HelloBEP20">
+                                                HelloBEP20
+                                            </option><option value="SimpleBEP20">
+                                                SimpleBEP20
+                                            </option><option value="StandardBEP20">
+                                                StandardBEP20
+                                            </option><option value="BurnableBEP20">
+                                                BurnableBEP20
+                                            </option><option value="MintableBEP20">
+                                                MintableBEP20
+                                            </option><option value="CommonBEP20">
+                                                CommonBEP20
+                                            </option><option value="UnlimitedBEP20">
+                                                UnlimitedBEP20
+                                            </option><option value="AmazingBEP20">
+                                                AmazingBEP20
+                                            </option></select><!----><!----><small tabindex="-1" class="form-text text-muted" id="__BVID__242__BV_description_">Choose your Token Type.</small></div></div> <div role="group" class="form-group" id="__BVID__244"><label for="network" class="d-block" id="__BVID__244__BV_label_">Network *</label><div><select id="network" class="custom-select custom-select-sm" aria-describedby="__BVID__244__BV_description_"><option value="mainnet">Binance Smart Chain
+                                            </option><option value="testnet">Binance Smart Chain - Testnet
+                                            </option></select><!----><!----><small tabindex="-1" class="form-text text-muted" id="__BVID__244__BV_description_">Choose your Network.</small></div></div> <!----> <a href="https://academy.binance.com/en/articles/connecting-metamask-to-binance-smart-chain" rel="noopener" target="_blank" class=""><small>How to connect MetaMask to Binance Smart Chain?</small></a></div><!----><!----></div> <div class="card mt-3"><!----><div class="card-header bg-dark text-white">Agreement</div><div class="card-body"><!----><!----><span><div role="group" class="form-group" id="__BVID__248"><!----><div><div class="custom-control custom-checkbox b-custom-control-sm"><input id="tokenAgreement" type="checkbox" name="tokenAgreement" class="custom-control-input" value="accepted"><label for="tokenAgreement" class="custom-control-label"><p>
+                                                    I have read, understood and agreed to
+                                                    BEP20 Token Generator's
+                                                    <u role="button" tabindex="0">Terms of Use</u>.
+                                                </p></label></div> <small class="text-danger" style="display: none;">
+                                                
+                                            </small><!----><!----><!----></div></div></span></div><!----><!----></div> <div class="card mt-3"><!----><div class="card-header bg-info text-white">Transaction</div><div class="list-group payment-box list-group-flush"><div class="list-group-item d-flex justify-content-between"><span>
+                                                Commission Fee:
+                                                <svg viewBox="0 0 16 16" width="1em" height="1em" focusable="false" role="img" aria-label="info circle" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi-info-circle b-icon bi"><g><path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"></path><path d="M8.93 6.588l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"></path></g></svg></span> <span class="badge badge-success">
+                                                0.3 BNB
+                                            </span></div> <div class="list-group-item d-flex justify-content-between"><span>
+                                                Gas Fee:
+                                                <svg viewBox="0 0 16 16" width="1em" height="1em" focusable="false" role="img" aria-label="info circle" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi-info-circle b-icon bi"><g><path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"></path><path d="M8.93 6.588l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"></path></g></svg></span> <span class="badge badge-info">
+                                                Variable
+                                            </span></div></div><!----><!----></div> <button type="submit" class="btn mt-3 py-3 px-5 text-uppercase btn-success btn-lg btn-block">
+                                    Confirm
+                                </button></div></div></fieldset></form></div><!----><!----></div></div></div></div> <div class="footer container-fluid"><div class="row bg-dark text-light py-4"><div class="col-lg-12 col-xl-8 offset-xl-2"><div class="row"><div class="col-lg-4"><div class="list-group list-group-flush"><a href="https://vittominacori.github.io/bep20-generator/" target="_self" class="list-group-item text-light router-link-active list-group-item-action">
+                            BEP20 Token Generator
+                        </a> <a href="https://vittominacori.github.io/bep20-generator/docs/" target="_self" class="list-group-item text-light list-group-item-action">
+                            Documentation
+                        </a></div></div> <div class="col-lg-4"><div class="list-group list-group-flush"><a href="https://vittominacori.github.io/bep20-generator/create-token/" target="_self" class="list-group-item text-light router-link-exact-active router-link-active list-group-item-action" aria-current="page">
+                            Create BEP20 Token
+                        </a> <a href="https://vittominacori.github.io/erc20-generator/" rel="noopener" target="_blank" class="list-group-item text-warning list-group-item-action">
+                            Create ERC20 Token
+                        </a></div></div> <div class="col-lg-4"><div class="list-group list-group-flush"><div class="list-group-item" role="button" tabindex="0"><small>Terms of Use</small></div></div></div></div></div> <div class="col-lg-12 col-xl-8 offset-xl-2"><hr> <div class="list-group list-group-flush"><div class="list-group-item"><small>
+                        created by
+                        <a href="https://vittominacori.github.io/" rel="noopener" target="_blank" class="text-warning">
+                            vittominacori
+                        </a></small></div></div></div></div> <!----></div></div><div class="global-ui"></div></div>
+    <script src="./index_files/app.6d5339fc.js.download" defer=""></script><script src="./index_files/5.a488082b.js.download" defer=""></script><script src="./index_files/10.3739b95f.js.download" defer=""></script><script src="./index_files/14.c89a56d7.js.download" defer=""></script><script src="./index_files/8.ef8c9b76.js.download" defer=""></script><script src="./index_files/13.b0231d02.js.download" defer=""></script><script src="./index_files/12.f42eca42.js.download" defer=""></script>
+  
+
+</body></html>
